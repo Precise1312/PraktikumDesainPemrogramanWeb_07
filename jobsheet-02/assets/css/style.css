@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #1d5b8a;
+    color: #42f5c5;
     text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ a:hover {
 
 
 header {
-    background-color: #1d5b8a;
+    background-color: #42f5c5;
     color: #fff;
     padding: 1rem 1.5rem;
     display: flex;
@@ -62,12 +62,12 @@ section {
 
 section h2 {
     margin-bottom: 1rem;
-    color: #1d5b8a;
+    color: #42f5c5;
 }
 
 main section:nth-of-type(2) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
@@ -87,7 +87,7 @@ main section:nth-of-type(2) article h3 {
 main section:nth-last-of-type(2) article p {
     font-size: 1.8 rem;
     font-weight: 700;
-    color: 1d5b8a;
+    color: 42f5c5;
 }
 
 table {
@@ -102,7 +102,7 @@ th, td {
 }
 
 thead {
-    background-color: #1d5b8a;
+    background-color: #42f5c5;
     color: #fff;
 }
 
@@ -154,7 +154,7 @@ form select {
 }
 
 form button[type="submit"]   {
-    background-color: #1d5b8a;
+    background-color: #42f5c5;
     color: #fff;
     border: none;
     padding: 0.6rem 1.5rem;
@@ -164,7 +164,7 @@ form button[type="submit"]   {
 }
 
 form button[type="submit"]:hover {
-    background-color: #164869;
+    background-color: #42f5c5;
 }
 
 form p {
