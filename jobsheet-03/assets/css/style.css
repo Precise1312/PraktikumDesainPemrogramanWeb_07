@@ -184,6 +184,7 @@ footer {
 /* ===== Tabel Responsif ===== */
 .table-responsive {
     overflow-x: auto;
+    white-space: pre;
 }
 
 /* ===== Hamburger Menu (checkbox hack) ===== */
@@ -201,14 +202,14 @@ footer {
 /* ===== Responsive Breakpoints ===== */
 
 /* Tablet ke bawah */
-@media (max-width: 900px) {
+@media (min-width: 900px) {
     main section:nth-of-type(2) {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 /* Mobile */
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     header {
         position: relative;
     }
