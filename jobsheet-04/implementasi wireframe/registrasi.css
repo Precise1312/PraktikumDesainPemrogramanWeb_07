@@ -1,0 +1,106 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Courier New", monospace;
+    background-color: #f5f6f8;
+    color: #2b2b2b;
+    line-height: 1.5;
+}
+
+.container {
+    width: 100%;
+    max-width: 520px;
+    margin: 20px auto;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 18px 10px;
+    border-bottom: 1px dashed #777;
+}
+
+section {
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px dashed #777;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.form-group input::placeholder {
+    text-align: center;
+    color: #777;
+}
+
+button {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    padding: 12px;
+    border: 1px dashed #777;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+.tautan {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px dashed #777;
+}
+
+.tautan a {
+    color: #1d5b8a;
+    text-decoration: none;
+}
+
+.tautan a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: calc(100% - 20px);
+        margin: 10px auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
